@@ -33,6 +33,10 @@ class Application:
         # age
         self.age = Label(self.left, text="Age", font=('arial 18 bold'), fg='black', bg='lightgreen')
         self.age.place(x=0, y=140)
+        
+         # address
+        self.age = Label(self.left, text="Patient Address", font=('arial 18 bold'), fg='black', bg='lightgreen')
+        self.address.place(x=0, y=140)
 
         # gender
         self.gender = Label(self.left, text="Gender", font=('arial 18 bold'), fg='black', bg='lightgreen')
