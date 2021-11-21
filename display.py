@@ -30,7 +30,7 @@ class Application:
         self.heading.place(x=350, y=0)
 
         # button to change patients
-        self.change = Button(master, text="Next Patient", width=25, height=2, bg='steelblue', command=self.func)
+        self.change = Button(master, text="Next Patient", width=30, height=2, bg='steelblue', command=self.func)
         self.change.place(x=500, y=600)
 
         # empty text labels to later config
