@@ -1,4 +1,4 @@
-# import modules
+# download and import modules
 import tkinter as tk
 from tk import *
 import sqlite3
@@ -102,7 +102,7 @@ class Application:
 
         # checking if the user input is empty
         if self.val1 == '' or self.val2 == '' or self.val3 == '' or self.val4 == '' or self.val5 == '':
-            tkMessageBox.showinfo("Warning", "Please Fill Up All Boxes")
+            tkMessageBox.showinfo("Warning", "Please Fill In All Boxes")
         else:
             # now we add to the database
             sql = "INSERT INTO 'appointments' (name, age, gender, location, scheduled_time, phone) VALUES(?, ?, ?, ?, ?, ?)"
