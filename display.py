@@ -32,7 +32,11 @@ class Application:
         # button to change patients
         self.change = Button(master, text="Next Patient", width=30, height=2, bg='steelblue', command=self.func)
         self.change.place(x=500, y=600)
-
+    
+        # button for new patients that have never been seen
+        self.change = Button(master, text="New Patient", width=30, height=2, bg='steelblue', command=self.func)
+        self.change.place(x=500, y=600)
+        
         # empty text labels to later config
         self.n = Label(master, text="", font=('arial 200 bold'))
         self.n.place(x=500, y=100)
